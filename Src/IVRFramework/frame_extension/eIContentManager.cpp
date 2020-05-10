@@ -1,5 +1,5 @@
-﻿#include "eIContentManager.h"
-#include "eIContentView.h"
+﻿#include "IVRFramework/frame/eIContentManager.h"
+#include "IVRFramework/frame/eIContentView.h"
 
 IVRFramework::eIContentManager::eIContentManager()
 {
