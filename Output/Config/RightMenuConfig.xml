@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RightMenuConfig>
+  <RightMenu enable="1" name="WorkSpaceNodeRightMenu">
+    <Item enable="1" command="OpenWorkSpaceCmd" library="WorkSpaceOperator" caption="打开工作空间"/>
+    <Item enable="1" command="SaveWorkSpaceCmd" library="WorkSpaceOperator" parameter="save" caption="保存工作空间"/>
+    <Item enable="1" command="SaveWorkSpaceCmd" library="WorkSpaceOperator" parameter="saveas" caption="另存为"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="关闭工作空间"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="删除工作空间"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="属性"/>
+  </RightMenu>
+  <RightMenu enable="1" name="DataSourceRootNodeRightMenu">
+    <Item enable="1" command="OpenDataSourceCmd" library="WorkSpaceOperator" caption="打开文件型数据源"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="打开数据库型数据源"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="打开服务型数据源"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="新建文件型数据源"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="新建数据库型数据源"/>
+  </RightMenu>
+  <RightMenu enable="1" name="DataSourceNodeRightMenu">
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="新建数据集"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="导入数据集"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="导出数据集"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="重命名"/>
+    <Item enable="1" command="CloseDataSourceCmd" library="WorkSpaceOperator" caption="关闭"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="执行SQL查询"/>
+  </RightMenu>
+  <RightMenu enable="1" name="DatasetNodeRightMenu">
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="浏览"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="SQL查询"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="分离数据集"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="创建空间索引"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="创建金字塔"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="统计极值"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="生成等值线/面"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="复制"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="重命名"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="删除"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="属性"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="制作专题图"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="制作分段专题图"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="制作标签专题图"/>
+  </RightMenu>
+  <RightMenu enable="1" name="MapNodeRightMenu">
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="打开"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="另存为"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="重命名"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="删除"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="创建地图缓存"/>
+    <Item enable="1" command="MapBrowser_ActivateMap" library="WorkSpaceOperator" caption="属性"/>
+  </RightMenu>
+  <RightMenu enable="1" name="PopupMenu_Shp">
+    <Item enable="1" command="RemoveLayerCmd" library="LayerOperator" icon="DeleteLayer" caption="删除图层" parameter="" tip="删除选中的矢量图层"/>
+    <Item enable="1" command="ZoomToLayerCmd" library="LayerOperator" icon="ViewEntire.png" caption="缩放到图层" parameter="" tip="缩放至当前图层的全图范围"/>
+    <Item enable="1" type="buttongroup">
+      <Item enable="1" command="EditGeometryCmd" library="LayerOperator" icon="" caption="编辑几何对象" parameter="" tip="编辑选中的图层中的几何对象" checkable="1"/>
+      <Item enable="1" command="EditVertexCmd" library="LayerOperator" icon="" caption="编辑节点" parameter="" tip="编辑选中的图层中几何对象的节点" checkable="1"/>
+      <Item enable="1" command="SelectGeometryTool" library="LayerOperator" icon="" caption="选择几何对象" parameter="" tip="允许选中图层中的几何对象" checkable="1"/>
+    </Item>
+    <Item enable="1" type="hseparator"/>
+    <Item enable="1" command="LayerStyleCmd" library="LayerOperator" icon="Style.png" caption="图层风格" parameter="" tip="查看矢量图层的属性信息"/>
+	<Item enable="1" command="ShowPropertyDialogeCmd" library="LayerOperator" icon="Style.png" caption="属性" parameter="" tip="查看图层属性信息"/>
+  </RightMenu>
+  <RightMenu enable="1" name="PopupMenu_Root">
+    <Item enable="1" command="RemoveAllLayerCmd" library="LayerOperator" icon="DeleteLayer" caption="删除所有图层" parameter="" tip="删除所有图层"/>
+    <Item enable="1" command="AddVectorLayerCmd" library="LayerOperator" icon="加载矢量数据.png" caption="添加矢量图层" parameter="" tip="添加shp矢量图层"/>
+    <Item enable="1" command="AddRasterLayerCmd" library="LayerOperator" icon="加载栅格数据.png" caption="添加栅格图层" parameter="" tip="添加tif栅格图层"/>
+  </RightMenu>
+  <RightMenu enable="1" name="PopupMenu_map">
+    <Item enable="1" type="buttongroup">
+      <Item enable="1" command="PanTool" library="MapOperator" icon="DeleteLayer" caption="漫游" parameter="" tip="漫游" checkable="1"/>
+      <Item enable="1" command="SelectGeometryTool" library="LayerOperator" icon="" caption="选择要素" parameter="" tip="选择要素" checkable="1"/>
+      <Item enable="1" command="UnSelectGeometryTool" library="LayerOperator" icon="" caption="取消选择" parameter="" tip="取消选择" checkable="1"/>
+      <Item enable="1" command="RectZoomInTool" library="MapOperator" icon="加载矢量数据.png" caption="拉框放大" parameter="" tip="拉框放大" checkable="1"/>
+      <Item enable="1" command="" library="MapOperator" icon="加载栅格数据.png" caption="拉框缩小" parameter="" tip="拉框缩小" checkable="1"/>
+    </Item>
+    <Item enable="1" command="FullExtentCmd" library="MapOperator" icon="加载矢量数据.png" caption="全图" parameter="" tip="全图"/>
+    <Item enable="1" command="" library="MapOperator" icon="加载栅格数据.png" caption="屏幕探针" parameter="" tip="屏幕探针"/>
+    <Item enable="1" command="" library="MapOperator" icon="加载矢量数据.png" caption="属性查看" parameter="" tip="属性查看"/>
+    <Item enable="1" command="" library="MapOperator" icon="加载栅格数据.png" caption="选择标绘" parameter="" tip="选择标绘"/>
+    <Item enable="1" command="" library="MapOperator" icon="加载栅格数据.png" caption="清除标绘" parameter="" tip="清除标绘"/>
+    <Item enable="1" command="" library="MapOperator" icon="加载矢量数据.png" caption="跳转坐标" parameter="" tip="跳转坐标"/>
+  </RightMenu>
+</RightMenuConfig>

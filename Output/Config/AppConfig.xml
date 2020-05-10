@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppConfig>
+  <ProductVersion>1.0</ProductVersion>
+  <ProductName>IVRPro</ProductName>
+  <ProductIcon></ProductIcon>
+  <UIConfigPath>Config/UIConfig</UIConfigPath>
+</AppConfig>
+

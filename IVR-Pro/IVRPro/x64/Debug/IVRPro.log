@@ -1,0 +1,11 @@
+﻿  Moc'ing MainWindow.h...
+  Rcc'ing MainWindow.qrc...
+RCC : warning : No resources in 'E:\MyGit\IVRPRo\IVR-Pro\IVRPro\MainWindow.qrc'.
+  
+  moc_MainWindow.cpp
+  main.cpp
+  MainWindow.cpp
+  Generating Code...
+  qrc_MainWindow.cpp
+  IVRPro.vcxproj -> E:\MyGit\IVRPRo\IVR-Pro\..\Output\BinD\VS2015\IVRPro.exe
+  IVRPro.vcxproj -> E:\MyGit\IVRPRo\IVR-Pro\..\Output\BinD\VS2015\IVRPro.pdb (Full PDB)

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="gb2312" standalone="no"?>
+<UIConfig>
+  <Page enable="1" caption="快捷操作">
+    <Group enable="1" caption="快捷操作">
+      <Item enable="1" type="button" caption="" icon="漫游" size="large" checkable="0" shortcut="" command="TODOCommand" library="BasePlugin" parameter="" tip="二三维切换" />
+      <Item enable="1" type="button" caption="" icon="中心放大" size="large" checkable="0" shortcut="" command="TODOCommand" library="BasePlugin" parameter="" tip="平移" />
+      <Item enable="1" type="button" caption="" icon="中心缩小" size="large" checkable="0" shortcut="" command="MapZoomCommand" library="BasePlugin" parameter="ZoomIn" tip="放大" />
+      <Item enable="1" type="button" caption="" icon="拉框放大" size="large" checkable="0" shortcut="" command="MapZoomCommand" library="BasePlugin" parameter="ZoomOut" tip="缩小" />
+      <Item enable="1" type="button" caption="" icon="拉框缩小" size="large" checkable="0" shortcut="" command="MapDisplayCommand" library="BasePlugin" parameter="0" tip="重置地图" />
+      <Item enable="1" type="button" caption="" icon="全图显示" size="large" checkable="0" shortcut="" command="MapDisplayCommand" library="BasePlugin" parameter="0" tip="重置地图" />
+      <Item enable="1" type="button" caption="" icon="前一视图-0" size="large" checkable="0" shortcut="" command="MapDisplayCommand" library="BasePlugin" parameter="0" tip="重置地图" />
+      <Item enable="1" type="button" caption="" icon="后一视图-0" size="large" checkable="0" shortcut="" command="MapDisplayCommand" library="BasePlugin" parameter="0" tip="重置地图" />
+    </Group>
+  </Page>
+</UIConfig>

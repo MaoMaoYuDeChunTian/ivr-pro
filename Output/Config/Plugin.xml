@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PluginConfig>
+  <CommonPlugins>
+    <Plugin IsActive="1" Path="Bin/VS2015/BasePlugin.dll"/>
+    <Plugin IsActive="1" Path="Bin/VS2015/LayerEditting.dll"/>
+    <Plugin IsActive="1" Path="Bin/VS2015/WorkSpaceOperator.dll"/>
+    <Plugin IsActive="1" Path="Bin/VS2015/MapOperator.dll"/>
+    <Plugin IsActive="1" Path="Bin/VS2015/SystemSetting.dll"/>
+  </CommonPlugins>
+</PluginConfig>

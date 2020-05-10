@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{4e1bd037-17be-4ea0-9026-f160b5948ed1}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{3d5212ed-8cfb-424e-91b4-e2d2ea381882}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="IVRFramework">
+      <UniqueIdentifier>{b0e3c659-018e-4c5c-839e-6d87a67ed663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IVRFramework\base_widget">
+      <UniqueIdentifier>{ee66864e-f1c6-4e9d-bc18-034ed41c1cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IVRFramework\command">
+      <UniqueIdentifier>{92260390-b479-4347-b0d1-eb93bf208758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IVRFramework\frame">
+      <UniqueIdentifier>{2e61509b-2eb6-41c6-a7eb-5151a6aab05e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IVRFramework\frameless">
+      <UniqueIdentifier>{2bc25170-8539-4f35-9435-6f307ebfc2c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IVRFramework\uiconfig">
+      <UniqueIdentifier>{3670a691-c7d3-442f-a6e2-56a329cfcef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IVRFramework\uiconfig\control">
+      <UniqueIdentifier>{1de37ead-c100-4e08-930a-9aa19b41d8c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IVRFramework\uiconfig\frame_extension">
+      <UniqueIdentifier>{528377e9-3c1c-4bd2-882c-a992959681e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\Src\IVRFramework\eStyle.h">
+      <Filter>IVRFramework</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Src\IVRFramework\base_widget\eBaseDialog.h">
+      <Filter>IVRFramework\base_widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Src\IVRFramework\base_widget\eBaseTitle.h">
+      <Filter>IVRFramework\base_widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Src\IVRFramework\base_widget\eMainWindow.h">
+      <Filter>IVRFramework\base_widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Src\IVRFramework\base_widget\eMainWindowTitle.h">
+      <Filter>IVRFramework\base_widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Src\IVRFramework\base_widget\eMdiArea.h">
+      <Filter>IVRFramework\base_widget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Src\IVRFramework\frameless\eFramelessHelper.h">
+      <Filter>IVRFramework\frameless</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Resource.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Src\IVRFramework\eAppInfo.cpp">
+      <Filter>IVRFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\eLanguageManager.cpp">
+      <Filter>IVRFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\eService.cpp">
+      <Filter>IVRFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\eStyle.cpp">
+      <Filter>IVRFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_eStyle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_eStyle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\base_widget\eBaseDialog.cpp">
+      <Filter>IVRFramework\base_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_eBaseDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_eBaseDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\base_widget\eBaseTitle.cpp">
+      <Filter>IVRFramework\base_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_eBaseTitle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_eBaseTitle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\base_widget\eMainWindow.cpp">
+      <Filter>IVRFramework\base_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_eMainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_eMainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\base_widget\eMainWindowTitle.cpp">
+      <Filter>IVRFramework\base_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_eMainWindowTitle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_eMainWindowTitle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\base_widget\eMdiArea.cpp">
+      <Filter>IVRFramework\base_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_eMdiArea.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_eMdiArea.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\frameless\eFramelessHelper.cpp">
+      <Filter>IVRFramework\frameless</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_eFramelessHelper.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_eFramelessHelper.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\frameless\eWidgetData.cpp">
+      <Filter>IVRFramework\frameless</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\frame\eIContentManager.cpp">
+      <Filter>IVRFramework\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_Resource.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Src\IVRFramework\eAppInfo.h">
+      <Filter>IVRFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\eCommon.h">
+      <Filter>IVRFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\eLanguageManager.h">
+      <Filter>IVRFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\eService.h">
+      <Filter>IVRFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\ivrframework_global.h">
+      <Filter>IVRFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\frameless\eWidgetData.h">
+      <Filter>IVRFramework\frameless</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\frame\eIContentManager.h">
+      <Filter>IVRFramework\frame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ivrframework_zh.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

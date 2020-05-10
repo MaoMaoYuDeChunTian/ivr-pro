@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageConfig curLanguage="中文">
+  <Language name="中文" dir="zh"/>
+  <Language name="英文" dir="en"/>
+</LanguageConfig>
