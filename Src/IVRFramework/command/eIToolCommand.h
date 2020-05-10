@@ -9,9 +9,9 @@
 
 #pragma once
 
-#include "ivrframework_global.h"
-#include "eCommon.h"
-#include "eICommand.h"
+#include "IVRFramework/ivrframework_global.h"
+#include "IVRFramework/eCommon.h"
+#include "IVRFramework/command/eICommand.h"
 #include <QCursor>
 
 class QContextMenuEvent;

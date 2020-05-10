@@ -1,3 +1,38 @@
-﻿  eMainWindowTitle.cpp
+﻿  Moc'ing eCommandManager.h...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of eIContentManager.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\Src\IVRFramework\frame\eIContentManager.cpp, ..\..\Src\IVRFramework\frame_extension\eIContentManager.cpp.
+  eCommandManager.cpp
+  eICommand.cpp
+  eICommandListener.cpp
+  eICommandSet.cpp
+  eIPlugin.cpp
+  ePluginManager.cpp
+  eButtonControl.cpp
+  eButtonGroupControl.cpp
+  eCheckBoxControl.cpp
+  eComboBoxControl.cpp
+  eContainerControl.cpp
+  eHSeparatorLine.cpp
+  eIControl.cpp
+  eMenuControl.cpp
+  ePopupButtonControl.cpp
+  eRadioButtonControl.cpp
+  eRightMenu.cpp
+  eSplitButtonControl.cpp
+  eUserControl.cpp
+  eVSeparatorLine.cpp
+  Generating Code...
+  Compiling...
+  eFrameExtensionManager.cpp
+  eMenuBarExtension.cpp
+  eToolBarExtension.cpp
+  eGroupItem.cpp
+  ePageItem.cpp
+  eUIConfig.cpp
+  eControlsOperationStack.cpp
+E:\MyGit\IVRPRo\Src\IVRFramework/undo_redo/eIOperation.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  eIOperationStack.cpp
+E:\MyGit\IVRPRo\Src\IVRFramework/undo_redo/eIOperation.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  moc_eCommandManager.cpp
+  Generating Code...
   IVRFramework.vcxproj -> E:\MyGit\IVRPRo\IVR-Pro\..\Output\BinD\VS2015\IVRFramework.dll
   IVRFramework.vcxproj -> E:\MyGit\IVRPRo\IVR-Pro\..\Output\BinD\VS2015\IVRFramework.pdb (Full PDB)

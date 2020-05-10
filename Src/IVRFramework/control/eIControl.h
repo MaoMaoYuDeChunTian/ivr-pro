@@ -1,36 +1,36 @@
-#pragma once
+ï»¿#pragma once
 #include <QString>
+#include <QToolBar>
+#include <QMenu>
 #include <QtXml/QDomDocument>
-#include <QtitanRibbon.h>
-#include "IVRFramework/ePluginManager.h"
-#include "IVRFramework/eCommandManager.h"
-#include "IVRFramework/eFrameExtensionManager.h"
-#include "IVRFramework/eFramework_global.h"
+#include <QtXml/QDomElement>
+#include "IVRFramework/command/ePluginManager.h"
+#include "IVRFramework/command/eCommandManager.h"
+#include "IVRFramework/frame_extension/eFrameExtensionManager.h"
+#include "IVRFramework/ivrframework_global.h"
 
 namespace IVRFramework {
 
-//¿Ø¼şÄ£ĞÍ»ùÀà
-class PIEPROFRAMEWORK_EXPORT eIControl
+class IVRFRAMEWORK_EXPORT eIControl
 {
 public:
 	///<summary>
-	///¿Ø¼şÀàĞÍÃ¶¾Ù
+	//æ§ä»¶ç±»å‹æšä¸¾
 	///</summary>
 	enum enControlType
 	{
 		None = -1,
-		Button = 0,//°´Å¥
-		CheckBox,//¹´Ñ¡°´Å¥
-		RadioButton,//»¥³âÑ¡Ôñ°´Å¥
-		HSeparatorLine,//Ë®Æ½·Ö¸îÏß
-		VSeparatorLine,//´¹Ö±·Ö¸îÏß
-		ButtonGroup,//Ö÷ÒªÓÃÓÚÊµÏÖRadioButton»¥³âÑ¡Ôñ
-		PopupButton,//ÏÂÀ­°´Å¥
-		SplitButton,//Split°´Å¥
-		ComboBox,//ÏÂÀ­ÁĞ±í¿ò
-		Menu,//²Ëµ¥¿Ø¼ş
-		GalleryControl,//Õ¹°å¿Ø¼ş
-		UserControl,//ÓÃ»§×Ô¶¨Òå¿Ø¼ş
+		Button = 0,//æŒ‰é’®
+		CheckBox,//å‹¾é€‰æŒ‰é’®
+		RadioButton,//äº’æ–¥é€‰æ‹©æŒ‰é’®
+		HSeparatorLine,//æ°´å¹³åˆ†å‰²çº¿
+		VSeparatorLine,//å‚ç›´åˆ†å‰²çº¿
+		ButtonGroup,//ä¸»è¦ç”¨äºå®ç°RadioButtonäº’æ–¥é€‰æ‹©
+		PopupButton,//ä¸‹æ‹‰æŒ‰é’®
+		SplitButton,//SplitæŒ‰é’®
+		ComboBox,//ä¸‹æ‹‰åˆ—è¡¨æ¡†
+		Menu,//èœå•æ§ä»¶
+		UserControl,//ç”¨æˆ·è‡ªå®šä¹‰æ§ä»¶
 	};
 
 public:
@@ -73,7 +73,6 @@ protected:
 public:
 	virtual bool FromXmlElement(const QDomElement& xmlElement);
 	virtual QDomElement ToXmlElement(QDomDocument xmlDoc);
-	virtual QObject* ToRibbonCtrl(Qtitan::RibbonGroup *rGroup) = 0;
 	virtual QObject* ToToolBarCtrl(QToolBar* pToolBar);
 	virtual QObject* ToMenuBarCtrl(QMenu* pMenu, QToolBar* pToolBar);
 
@@ -97,7 +96,7 @@ private:
 	QObject* m_tag;
 
 private:
-	static std::map<QString, enControlType> s_ControlTypeDict;
+	static QMap<QString, enControlType> s_ControlTypeDict;
 
 };
 }

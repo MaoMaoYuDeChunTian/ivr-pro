@@ -36,6 +36,7 @@ namespace IVRFramework
 		QString ProductVersion()const;
 		QString ProductName()const;
 		QString ProductIcon()const;
+		int MainMenuType();
 
 		bool LoadConfig();
 
@@ -48,6 +49,7 @@ namespace IVRFramework
 		QString m_UIConfigPath;
 		QString m_ProductName;
 		QString m_ProductIcon;
+		int m_nMainMenuType;
 
 		eLanguageManager* m_pLanguageManager;
 	};

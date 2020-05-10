@@ -1,7 +1,7 @@
-﻿#include "IVRFramework/eUIConfig.h"
-#include <QFile>
-#include "IVRFramework/ePageItem.h"
+﻿#include "IVRFramework/uiconfig/eUIConfig.h"
+#include "IVRFramework/uiconfig/ePageItem.h"
 #include "IVRUtility/eCommonUtil.h"
+#include <QFile>
 
 using namespace IVRFramework;
 using namespace IVRUtility;

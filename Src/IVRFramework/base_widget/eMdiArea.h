@@ -9,8 +9,6 @@
 
 #pragma once
 #include "IVRFramework/ivrframework_global.h"
-
-
 #include <QMdiArea>
 #include <QVector>
 #include "IVRFramework/frame/eIContentManager.h"
@@ -33,9 +31,9 @@ namespace IVRFramework {
 		virtual void dragMoveEvent(QDragMoveEvent *event);
 
 	public:
-	/*	virtual eIContentView* ActivedContentView();
+		virtual eIContentView* ActivedContentView();
 		virtual void AddContentView(eIContentView* pContentView);
-		virtual QVector<eIContentView*> ContentViewList();*/
+		virtual QVector<eIContentView*> ContentViewList();
 	};
 
 }

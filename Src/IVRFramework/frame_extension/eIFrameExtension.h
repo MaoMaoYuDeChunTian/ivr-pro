@@ -10,7 +10,7 @@
 #pragma once
 
 #include <QString>
-#include "ivrframework_global.h"
+#include "IVRFramework/ivrframework_global.h"
 
 namespace IVRFramework
 {

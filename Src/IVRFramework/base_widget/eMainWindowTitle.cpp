@@ -14,7 +14,7 @@ IVRFramework::eMainWindowTitle::eMainWindowTitle(QString title, QWidget* parent 
 
 	m_menuBar = new QMenuBar();
 	QFont _font = m_menuBar->font();
-	_font.setPointSize(11);
+	_font.setPointSize(10);
 	m_menuBar->setFont(_font);
 	m_containerHbox->addWidget(m_menuBar, 1, Qt::AlignLeft | Qt::AlignVCenter);
 }

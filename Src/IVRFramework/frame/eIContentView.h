@@ -9,7 +9,7 @@
 
 #pragma once
 
-#include "ivrframework_global.h"
+#include "IVRFramework/ivrframework_global.h"
 #include <QVector>
 #include <QString>
 

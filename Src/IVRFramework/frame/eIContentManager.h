@@ -9,13 +9,11 @@
 
 #pragma once
 #include "IVRFramework/ivrframework_global.h"
-
-
 #include <QVector>
 
 namespace IVRFramework {
 
-	//class eIContentView;
+	class eIContentView;
 
 	class IVRFRAMEWORK_EXPORT eIContentManager
 	{
@@ -24,9 +22,9 @@ namespace IVRFramework {
 		virtual ~eIContentManager();
 
 	public:
-		/*virtual eIContentView* ActivedContentView() = 0;
+		virtual eIContentView* ActivedContentView() = 0;
 		virtual void AddContentView(eIContentView* pContentView) = 0;
-		virtual QVector<eIContentView*> ContentViewList() = 0;*/
+		virtual QVector<eIContentView*> ContentViewList() = 0;
 	};
 
 }

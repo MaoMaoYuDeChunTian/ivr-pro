@@ -1,20 +1,19 @@
-﻿#include "IVRFramework/eIControl.h"
-#include "IVRFramework/eButtonControl.h"
-#include "IVRFramework/eCheckBoxControl.h"
-#include "IVRFramework/eRadioButtonControl.h"
-#include "IVRFramework/eVSeparatorLine.h"
-#include "IVRFramework/eHSeparatorLine.h"
-#include "IVRFramework/eButtonGroupControl.h"
-#include "IVRFramework/ePopupButtonControl.h"
-#include "IVRFramework/eSplitButtonControl.h"
-#include "IVRFramework/eComboBoxControl.h"
-#include "IVRFramework/eMenuControl.h"
-#include "IVRFramework/eGalleryControl.h"
-#include "IVRFramework/eUserControl.h"
+﻿#include "IVRFramework/control/eIControl.h"
+#include "IVRFramework/control/eButtonControl.h"
+#include "IVRFramework/control/eCheckBoxControl.h"
+#include "IVRFramework/control/eRadioButtonControl.h"
+#include "IVRFramework/control/eVSeparatorLine.h"
+#include "IVRFramework/control/eHSeparatorLine.h"
+#include "IVRFramework/control/eButtonGroupControl.h"
+#include "IVRFramework/control/ePopupButtonControl.h"
+#include "IVRFramework/control/eSplitButtonControl.h"
+#include "IVRFramework/control/eComboBoxControl.h"
+#include "IVRFramework/control/eMenuControl.h"
+#include "IVRFramework/control/eUserControl.h"
 
 using namespace IVRFramework;
 
-std::map<QString, eIControl::enControlType> eIControl::s_ControlTypeDict;
+QMap<QString, eIControl::enControlType> eIControl::s_ControlTypeDict;
 
 eIControl::eIControl()
 	:m_ControlType(None),
@@ -228,7 +227,6 @@ eIControl::enControlType eIControl::GetType(QString typeName)
 		s_ControlTypeDict["splitbutton"] = eIControl::SplitButton;
 		s_ControlTypeDict["combobox"] = eIControl::ComboBox;
 		s_ControlTypeDict["menu"] = eIControl::Menu;
-		s_ControlTypeDict["gallerycontrol"] = eIControl::GalleryControl;
 		s_ControlTypeDict["usercontrol"] = eIControl::UserControl;
 	}
 	if (s_ControlTypeDict.find(typeName) != s_ControlTypeDict.end())
@@ -292,11 +290,6 @@ eIControl* eIControl::CreateControl(eIControl::enControlType controlType)
 	case eIControl::Menu:
 		{
 			pControl = new eMenuControl();
-		}
-		break;
-	case eIControl::GalleryControl:
-		{
-			pControl = new eGalleryControl();
 		}
 		break;
 	case eIControl::UserControl:

@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UIConfig>
-  <Page enable="1" caption="ÊÓÍ¼">
-    <Group enable="1" caption="ÊÓÍ¼">
-      <Item enable="1" type="button" command="View_View" library="View_View" caption="È«¾Ö" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_View" library="View_View" caption="¾Ö²¿" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_View" library="View_View" caption="µØÍ¼" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_View" library="View_View" caption="×ª»»" icon="AdaptiveCoherenceEstimator" tip="" />
+  <Page enable="1" caption="è§†å›¾">
+    <Group enable="1" caption="è§†å›¾">
+      <Item enable="1" type="button" command="View_View" library="View_View" caption="all" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
+      <Item enable="1" type="button" command="View_View" library="View_View" caption="Section" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
+      <Item enable="1" type="button" command="View_View" library="View_View" caption="åœ°å›¾" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
+      <Item enable="1" type="button" command="View_View" library="View_View" caption="è½¬æ¢" icon="AdaptiveCoherenceEstimator" tip="" />
     </Group>
-    <Group enable="1" caption="Á´½Ó">
-      <Item enable="1" type="splitbutton" command="View_Link" library="View_Link" caption="Á´½ÓÊÓÍ¼" icon="AdaptiveCoherenceEstimator" >
-        <Item enable="1" type="button" command="View_Link" library="View_Link" caption="ÖÐÐÄ" icon="AdaptiveCoherenceEstimator" tip=""/>
-        <Item enable="1" type="button" command="View_Link" library="View_Link" caption="ÖÐÐÄºÍ±ÈÀý" icon="AdaptiveCoherenceEstimator" tip=""/>
+    <Group enable="1" caption="é“¾æŽ¥">
+      <Item enable="1" type="splitbutton" command="View_Link" library="View_Link" caption="é“¾æŽ¥è§†å›¾" icon="AdaptiveCoherenceEstimator" >
+        <Item enable="1" type="button" command="View_Link" library="View_Link" caption="ä¸­å¿ƒ" icon="AdaptiveCoherenceEstimator" tip=""/>
+        <Item enable="1" type="button" command="View_Link" library="View_Link" caption="ä¸­å¿ƒå’Œæ¯”ä¾‹" icon="AdaptiveCoherenceEstimator" tip=""/>
       </Item>
     </Group>
-    <Group enable="1" caption="´°¿Ú">
-      <Item enable="1" type="button" command="View_Window" library="View_Window" caption="Ä¿Â¼´°¸ñ" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_Window" library="View_Window" caption="Ä¿Â¼ÊÓÍ¼" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_Window" library="View_Window" caption="ÄÚÈÝ" icon="AdaptiveCoherenceEstimator" tip="" />
+    <Group enable="1" caption="çª—å£">
+      <Item enable="1" type="button" command="View_Window" library="View_Window" caption="ç›®å½•çª—æ ¼" icon="AdaptiveCoherenceEstimator" tip="" />
+      <Item enable="1" type="button" command="View_Window" library="View_Window" caption="ç›®å½•è§†å›¾" icon="AdaptiveCoherenceEstimator" tip="" />
+      <Item enable="1" type="button" command="View_Window" library="View_Window" caption="å†…å®¹" icon="AdaptiveCoherenceEstimator" tip="" />
       <Item enable="1" type="button" command="View_Window" library="View_Window" caption="Python" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_Window" library="View_Window" caption="ÈÎÎñ" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_Window" library="View_Window" caption="Reviewer¹æÔò" icon="AdaptiveCoherenceEstimator" tip="" />
+      <Item enable="1" type="button" command="View_Window" library="View_Window" caption="ä»»åŠ¡" icon="AdaptiveCoherenceEstimator" tip="" />
+      <Item enable="1" type="button" command="View_Window" library="View_Window" caption="Reviewerè§„åˆ™" icon="AdaptiveCoherenceEstimator" tip="" />
       <Item enable="1" type="splitbutton" command="View_Workflow" library="View_Workflow" caption="Workflow Manager" icon="AdaptiveCoherenceEstimator" >
-        <Item enable="1" type="button" command="View_Workflow" library="View_Workflow" caption="¹¤×÷Á÷´°¸ñ" icon="AdaptiveCoherenceEstimator" tip=""/>
-        <Item enable="1" type="button" command="View_Workflow" library="View_Workflow" caption="¹¤×÷Á÷ÊÓÍ¼" icon="AdaptiveCoherenceEstimator" tip=""/>
+        <Item enable="1" type="button" command="View_Workflow" library="View_Workflow" caption="å·¥ä½œæµçª—æ ¼" icon="AdaptiveCoherenceEstimator" tip=""/>
+        <Item enable="1" type="button" command="View_Workflow" library="View_Workflow" caption="å·¥ä½œæµè§†å›¾" icon="AdaptiveCoherenceEstimator" tip=""/>
       </Item>
     </Group>
-    <Group enable="1" caption="ËõÂÔÍ¼">
-      <Item enable="1" type="button" command="View_Breviary" library="View_Breviary" caption="´´½¨" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_Breviary" library="View_Breviary" caption="µ¼Èë" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
+    <Group enable="1" caption="ç¼©ç•¥å›¾">
+      <Item enable="1" type="button" command="View_Breviary" library="View_Breviary" caption="åˆ›å»º" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
+      <Item enable="1" type="button" command="View_Breviary" library="View_Breviary" caption="å¯¼å…¥" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
     </Group>
-    <Group enable="1" caption="¶¯»­">
-      <Item enable="1" type="button" command="View_Action" library="View_Action" caption="Ìí¼Ó" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_Action" library="View_Action" caption="ÒÆ³ý" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
+    <Group enable="1" caption="åŠ¨ç”»">
+      <Item enable="1" type="button" command="View_Action" library="View_Action" caption="æ·»åŠ " size="small" icon="AdaptiveCoherenceEstimator" tip="" />
+      <Item enable="1" type="button" command="View_Action" library="View_Action" caption="ç§»é™¤" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
     </Group>
-    <Group enable="1" caption="³¡¾°">
-      <Item enable="1" type="button" command="View_Scene" library="View_Action" caption="Éî¶ÈÓÅÏÈ¼¶" icon="AdaptiveCoherenceEstimator" tip=""/>
-      <Item enable="1" type="splitbutton" command="View_Scene" library="View_Action" caption="»æÖÆÄ£Ê½" icon="AdaptiveCoherenceEstimator" tip="" >
-        <Item enable="1" type="button" command="View_Scene" library="View_Scene" caption="Í¸ÊÓ" icon="AdaptiveCoherenceEstimator" tip=""/>
-        <Item enable="1" type="button" command="View_Scene" library="View_Scene" caption="µÈÈÝÏß" icon="AdaptiveCoherenceEstimator" tip=""/>
+    <Group enable="1" caption="åœºæ™¯">
+      <Item enable="1" type="button" command="View_Scene" library="View_Action" caption="æ·±åº¦ä¼˜å…ˆçº§" icon="AdaptiveCoherenceEstimator" tip=""/>
+      <Item enable="1" type="splitbutton" command="View_Scene" library="View_Action" caption="ç»˜åˆ¶æ¨¡å¼" icon="AdaptiveCoherenceEstimator" tip="" >
+        <Item enable="1" type="button" command="View_Scene" library="View_Scene" caption="é€è§†" icon="AdaptiveCoherenceEstimator" tip=""/>
+        <Item enable="1" type="button" command="View_Scene" library="View_Scene" caption="ç­‰å®¹çº¿" icon="AdaptiveCoherenceEstimator" tip=""/>
       </Item>
     </Group>
-    <Group enable="1" caption="µ¼º½">
-      <Item enable="1" type="button" command="View_Navigation" library="View_Navigation" caption="µ¼º½Æ÷" icon="AdaptiveCoherenceEstimator" tip=""/>
+    <Group enable="1" caption="å¯¼èˆª">
+      <Item enable="1" type="button" command="View_Navigation" library="View_Navigation" caption="å¯¼èˆªå™¨" icon="AdaptiveCoherenceEstimator" tip=""/>
     </Group>
   </Page>
 </UIConfig>

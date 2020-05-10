@@ -110,6 +110,13 @@ bool eAppInfo::LoadConfig()
 	QDomElement eleProductIcon = dRoot.firstChildElement("ProductIcon");
 	m_ProductIcon = eleProductIcon.text();
 
+	QDomElement eleMainMenuType = dRoot.firstChildElement("MainMenuType");
+	QString strMainMenuType = eleMainMenuType.text();
+	bool bOk = false;
+	m_nMainMenuType = strMainMenuType.toInt(&bOk);
+	if (bOk == false)
+		m_nMainMenuType = 0;
+
 	QDomElement eleUIConfigPath = dRoot.firstChildElement("UIConfigPath");
 	m_UIConfigPath = eleUIConfigPath.text();
 
@@ -122,4 +129,9 @@ bool eAppInfo::LoadConfig()
 	}
 
 	return true;
+}
+
+int IVRFramework::eAppInfo::MainMenuType()
+{
+	return m_nMainMenuType;
 }

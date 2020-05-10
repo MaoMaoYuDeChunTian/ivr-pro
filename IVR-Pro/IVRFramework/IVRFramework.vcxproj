@@ -74,17 +74,58 @@
     <ClCompile Include="..\..\Src\IVRFramework\base_widget\eMainWindow.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\base_widget\eMainWindowTitle.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\base_widget\eMdiArea.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\base_widget\eToolBar.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\command\eCommandDelegate.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\command\eCommandManager.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\command\eICommand.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\command\eICommandListener.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\command\eICommandSet.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\command\eIPlugin.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\command\eIToolCommand.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\command\ePluginManager.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\control\eButtonControl.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\control\eButtonGroupControl.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\control\eCheckBoxControl.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\control\eComboBoxControl.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\control\eContainerControl.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\control\eHSeparatorLine.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\control\eIControl.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\control\eMenuControl.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\control\ePopupButtonControl.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\control\eRadioButtonControl.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\control\eRightMenu.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\control\eSplitButtonControl.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\control\eUserControl.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\control\eVSeparatorLine.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\eAppInfo.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\eLanguageManager.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\eService.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\eStyle.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\frameless\eFramelessHelper.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\frameless\eWidgetData.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\frame\eIContentEventListener.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\frame\eIContentManager.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\frame\eIContentView.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\frame_extension\eMenuBarExtension.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\frame_extension\eFrameExtensionManager.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\frame_extension\eIContentManager.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\frame_extension\eIFrameExtension.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\frame_extension\eToolBarExtension.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\uiconfig\eGroupItem.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\uiconfig\eIDisplayItem.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\uiconfig\ePageItem.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\uiconfig\eUIConfig.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\undo_redo\eControlsOperationStack.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\undo_redo\eGroupOperations.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\undo_redo\eIOperation.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\undo_redo\eIOperationStack.cpp" />
     <ClCompile Include="GeneratedFiles\Debug\moc_eBaseDialog.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_eBaseTitle.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_eCommandManager.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_eFramelessHelper.cpp">
@@ -102,6 +143,9 @@
     <ClCompile Include="GeneratedFiles\Debug\moc_eStyle.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_eToolBar.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="GeneratedFiles\qrc_Resource.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
       </PrecompiledHeader>
@@ -112,6 +156,9 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Release\moc_eBaseTitle.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_eCommandManager.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Release\moc_eFramelessHelper.cpp">
@@ -129,10 +176,69 @@
     <ClCompile Include="GeneratedFiles\Release\moc_eStyle.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_eToolBar.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <CustomBuild Include="..\..\Src\IVRFramework\base_widget\eToolBar.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing eToolBar.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_CORE_LIB -DQT_XML_LIB -DIVRFRAMEWORK_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)..\Src"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing eToolBar.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DIVRFRAMEWORK_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtWidgets"</Command>
+    </CustomBuild>
+    <ClInclude Include="..\..\Src\IVRFramework\command\eCommandDelegate.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\frame\eIContentEventListener.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\frame\eIContentView.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\undo_redo\eControlsOperationStack.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\undo_redo\eGroupOperations.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\undo_redo\eIOperation.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\undo_redo\eIOperationStack.h" />
+    <CustomBuild Include="..\..\Src\IVRFramework\command\eCommandManager.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing eCommandManager.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_CORE_LIB -DQT_XML_LIB -DIVRFRAMEWORK_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtWidgets" "-I$(QTDIR)\include\QtGui" "-I$(SolutionDir)..\Src"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing eCommandManager.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DIVRFRAMEWORK_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtWidgets"</Command>
+    </CustomBuild>
+    <ClInclude Include="..\..\Src\IVRFramework\command\eICommand.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\command\eICommandListener.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\command\eICommandSet.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\command\eIPlugin.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\command\eIToolCommand.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\command\ePluginManager.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\control\eButtonControl.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\control\eButtonGroupControl.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\control\eCheckBoxControl.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\control\eComboBoxControl.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\control\eContainerControl.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\control\eHSeparatorLine.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\control\eIControl.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\control\eMenuControl.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\control\ePopupButtonControl.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\control\eRadioButtonControl.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\control\eRightMenu.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\control\eSplitButtonControl.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\control\eUserControl.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\control\eVSeparatorLine.h" />
     <ClInclude Include="..\..\Src\IVRFramework\frameless\eWidgetData.h" />
     <ClInclude Include="..\..\Src\IVRFramework\frame\eIContentManager.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\frame_extension\eMenuBarExtension.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\frame_extension\eFrameExtensionManager.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\frame_extension\eIContentManager.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\frame_extension\eIFrameExtension.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\frame_extension\eToolBarExtension.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\uiconfig\eGroupItem.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\uiconfig\eIDisplayItem.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\uiconfig\ePageItem.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\uiconfig\eUIConfig.h" />
     <CustomBuild Include="..\..\Src\IVRFramework\frameless\eFramelessHelper.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing eFramelessHelper.h...</Message>

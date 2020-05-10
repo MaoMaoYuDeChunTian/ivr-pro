@@ -1,7 +1,7 @@
-﻿#include "eIContentView.h"
+﻿#include "IVRFramework/frame/eIContentView.h"
 #include <QWidget>
 #include <QEvent>
-#include "eIToolCommand.h"
+#include "IVRFramework/command/eIToolCommand.h"
 #include "eIContentEventListener.h"
 
 using namespace IVRFramework;

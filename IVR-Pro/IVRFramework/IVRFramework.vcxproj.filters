@@ -44,16 +44,19 @@
     <Filter Include="IVRFramework\uiconfig">
       <UniqueIdentifier>{3670a691-c7d3-442f-a6e2-56a329cfcef9}</UniqueIdentifier>
     </Filter>
-    <Filter Include="IVRFramework\uiconfig\control">
-      <UniqueIdentifier>{1de37ead-c100-4e08-930a-9aa19b41d8c6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="IVRFramework\uiconfig\frame_extension">
-      <UniqueIdentifier>{528377e9-3c1c-4bd2-882c-a992959681e5}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Translation Files">
       <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
       <Extensions>ts</Extensions>
       <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="IVRFramework\frame_extension">
+      <UniqueIdentifier>{4b10cbef-7b33-4ad5-bafc-cc728b9f08e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IVRFramework\control">
+      <UniqueIdentifier>{3b6b4223-d218-48dc-b139-e5236aaca840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IVRFramework\undo_redo">
+      <UniqueIdentifier>{1d2f2538-0e78-44b0-9387-bcd13827a76e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -80,6 +83,12 @@
     </CustomBuild>
     <CustomBuild Include="Resource.qrc">
       <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Src\IVRFramework\command\eCommandManager.h">
+      <Filter>IVRFramework\command</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\Src\IVRFramework\base_widget\eToolBar.h">
+      <Filter>IVRFramework\base_widget</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -164,6 +173,132 @@
     <ClCompile Include="GeneratedFiles\qrc_Resource.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\uiconfig\eIDisplayItem.cpp">
+      <Filter>IVRFramework\uiconfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\uiconfig\ePageItem.cpp">
+      <Filter>IVRFramework\uiconfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\uiconfig\eUIConfig.cpp">
+      <Filter>IVRFramework\uiconfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\uiconfig\eGroupItem.cpp">
+      <Filter>IVRFramework\uiconfig</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\frame_extension\eFrameExtensionManager.cpp">
+      <Filter>IVRFramework\frame_extension</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\frame_extension\eIContentManager.cpp">
+      <Filter>IVRFramework\frame_extension</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\frame_extension\eIFrameExtension.cpp">
+      <Filter>IVRFramework\frame_extension</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\frame_extension\eMenuBarExtension.cpp">
+      <Filter>IVRFramework\frame_extension</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\frame_extension\eToolBarExtension.cpp">
+      <Filter>IVRFramework\frame_extension</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\command\eCommandManager.cpp">
+      <Filter>IVRFramework\command</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_eCommandManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_eCommandManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\command\eICommand.cpp">
+      <Filter>IVRFramework\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\command\eICommandListener.cpp">
+      <Filter>IVRFramework\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\command\eICommandSet.cpp">
+      <Filter>IVRFramework\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\command\eIPlugin.cpp">
+      <Filter>IVRFramework\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\command\eIToolCommand.cpp">
+      <Filter>IVRFramework\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\command\ePluginManager.cpp">
+      <Filter>IVRFramework\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\control\eButtonControl.cpp">
+      <Filter>IVRFramework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\control\eButtonGroupControl.cpp">
+      <Filter>IVRFramework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\control\eCheckBoxControl.cpp">
+      <Filter>IVRFramework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\control\eComboBoxControl.cpp">
+      <Filter>IVRFramework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\control\eHSeparatorLine.cpp">
+      <Filter>IVRFramework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\control\eIControl.cpp">
+      <Filter>IVRFramework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\control\eMenuControl.cpp">
+      <Filter>IVRFramework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\control\ePopupButtonControl.cpp">
+      <Filter>IVRFramework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\control\eRadioButtonControl.cpp">
+      <Filter>IVRFramework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\control\eRightMenu.cpp">
+      <Filter>IVRFramework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\control\eSplitButtonControl.cpp">
+      <Filter>IVRFramework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\control\eUserControl.cpp">
+      <Filter>IVRFramework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\control\eVSeparatorLine.cpp">
+      <Filter>IVRFramework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\undo_redo\eControlsOperationStack.cpp">
+      <Filter>IVRFramework\undo_redo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\undo_redo\eIOperation.cpp">
+      <Filter>IVRFramework\undo_redo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\undo_redo\eIOperationStack.cpp">
+      <Filter>IVRFramework\undo_redo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\command\eCommandDelegate.cpp">
+      <Filter>IVRFramework\command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\frame\eIContentEventListener.cpp">
+      <Filter>IVRFramework\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\frame\eIContentView.cpp">
+      <Filter>IVRFramework\frame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\control\eContainerControl.cpp">
+      <Filter>IVRFramework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_eToolBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_eToolBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\base_widget\eToolBar.cpp">
+      <Filter>IVRFramework\base_widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\undo_redo\eGroupOperations.cpp">
+      <Filter>IVRFramework\undo_redo</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Src\IVRFramework\eAppInfo.h">
@@ -185,6 +320,114 @@
       <Filter>IVRFramework\frameless</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Src\IVRFramework\frame\eIContentManager.h">
+      <Filter>IVRFramework\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\uiconfig\eGroupItem.h">
+      <Filter>IVRFramework\uiconfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\uiconfig\eIDisplayItem.h">
+      <Filter>IVRFramework\uiconfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\uiconfig\ePageItem.h">
+      <Filter>IVRFramework\uiconfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\uiconfig\eUIConfig.h">
+      <Filter>IVRFramework\uiconfig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\frame_extension\eFrameExtensionManager.h">
+      <Filter>IVRFramework\frame_extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\frame_extension\eIContentManager.h">
+      <Filter>IVRFramework\frame_extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\frame_extension\eIFrameExtension.h">
+      <Filter>IVRFramework\frame_extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\frame_extension\eMenuBarExtension.h">
+      <Filter>IVRFramework\frame_extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\frame_extension\eToolBarExtension.h">
+      <Filter>IVRFramework\frame_extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\command\eICommand.h">
+      <Filter>IVRFramework\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\command\eICommandListener.h">
+      <Filter>IVRFramework\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\command\eICommandSet.h">
+      <Filter>IVRFramework\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\command\eIPlugin.h">
+      <Filter>IVRFramework\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\command\eIToolCommand.h">
+      <Filter>IVRFramework\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\command\ePluginManager.h">
+      <Filter>IVRFramework\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\control\eButtonControl.h">
+      <Filter>IVRFramework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\control\eButtonGroupControl.h">
+      <Filter>IVRFramework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\control\eCheckBoxControl.h">
+      <Filter>IVRFramework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\control\eComboBoxControl.h">
+      <Filter>IVRFramework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\control\eContainerControl.h">
+      <Filter>IVRFramework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\control\eHSeparatorLine.h">
+      <Filter>IVRFramework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\control\eIControl.h">
+      <Filter>IVRFramework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\control\eMenuControl.h">
+      <Filter>IVRFramework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\control\ePopupButtonControl.h">
+      <Filter>IVRFramework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\control\eRadioButtonControl.h">
+      <Filter>IVRFramework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\control\eRightMenu.h">
+      <Filter>IVRFramework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\control\eSplitButtonControl.h">
+      <Filter>IVRFramework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\control\eUserControl.h">
+      <Filter>IVRFramework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\control\eVSeparatorLine.h">
+      <Filter>IVRFramework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\undo_redo\eControlsOperationStack.h">
+      <Filter>IVRFramework\undo_redo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\undo_redo\eGroupOperations.h">
+      <Filter>IVRFramework\undo_redo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\undo_redo\eIOperation.h">
+      <Filter>IVRFramework\undo_redo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\undo_redo\eIOperationStack.h">
+      <Filter>IVRFramework\undo_redo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\command\eCommandDelegate.h">
+      <Filter>IVRFramework\command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\frame\eIContentEventListener.h">
+      <Filter>IVRFramework\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\frame\eIContentView.h">
       <Filter>IVRFramework\frame</Filter>
     </ClInclude>
   </ItemGroup>

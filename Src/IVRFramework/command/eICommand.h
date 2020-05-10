@@ -14,8 +14,8 @@
 #include <QJsonObject>
 #include <QString>
 #include <QMap>
-#include "ivrframework_global.h"
-#include "eCommon.h"
+#include "IVRFramework/ivrframework_global.h"
+#include "IVRFramework/eCommon.h"
 
 class QObject;
 namespace IVRFramework {

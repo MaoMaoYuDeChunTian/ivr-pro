@@ -11,7 +11,7 @@
 
 #include <QString>
 #include <qdom.h>
-#include "ivrframework_global.h"
+#include "IVRFramework/ivrframework_global.h"
 
 namespace IVRFramework
 {

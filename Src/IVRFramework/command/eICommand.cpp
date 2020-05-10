@@ -1,7 +1,7 @@
-﻿#include "eICommand.h"
+﻿#include "IVRFramework/command/eICommand.h"
 #include <QMap>
 #include <QObject>
-//#include "eICommandListener.h"
+#include "IVRFramework/command/eICommandListener.h"
 
 using namespace IVRFramework;
 

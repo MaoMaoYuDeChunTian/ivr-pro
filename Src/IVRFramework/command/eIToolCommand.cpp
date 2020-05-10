@@ -1,9 +1,10 @@
-﻿#include "eIToolCommand.h"
+﻿#include "IVRFramework/command/eIToolCommand.h"
 #include <QObject>
 #include <QEvent>
-#include "eIContentView.h"
-#include "eService.h"
-#include "eIContentManager.h"
+#include <QWidget>
+#include "IVRFramework/frame/eIContentView.h"
+#include "IVRFramework/eService.h"
+#include "IVRFramework/frame/eIContentManager.h"
 
 using namespace IVRFramework;
 
