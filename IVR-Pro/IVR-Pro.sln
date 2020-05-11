@@ -13,6 +13,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IVRFramework", "IVRFramewor
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IVRUtility", "IVRUtility\IVRUtility.vcxproj", "{7584A1AD-880F-431B-80C1-3AFFD9512DEA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugins", "plugins", "{3E03B154-4656-4C9C-8FF5-6D1E1F5847F0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IVRTestPlugin", "IVRTestPlugin\IVRTestPlugin.vcxproj", "{DA0729EC-DD8E-46DA-A73D-331240A9031F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -39,9 +43,18 @@ Global
 		{7584A1AD-880F-431B-80C1-3AFFD9512DEA}.Release|x64.ActiveCfg = Release|x64
 		{7584A1AD-880F-431B-80C1-3AFFD9512DEA}.Release|x64.Build.0 = Release|x64
 		{7584A1AD-880F-431B-80C1-3AFFD9512DEA}.Release|x86.ActiveCfg = Release|x64
+		{DA0729EC-DD8E-46DA-A73D-331240A9031F}.Debug|x64.ActiveCfg = Debug|x64
+		{DA0729EC-DD8E-46DA-A73D-331240A9031F}.Debug|x64.Build.0 = Debug|x64
+		{DA0729EC-DD8E-46DA-A73D-331240A9031F}.Debug|x86.ActiveCfg = Debug|x64
+		{DA0729EC-DD8E-46DA-A73D-331240A9031F}.Release|x64.ActiveCfg = Release|x64
+		{DA0729EC-DD8E-46DA-A73D-331240A9031F}.Release|x64.Build.0 = Release|x64
+		{DA0729EC-DD8E-46DA-A73D-331240A9031F}.Release|x86.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA0729EC-DD8E-46DA-A73D-331240A9031F} = {3E03B154-4656-4C9C-8FF5-6D1E1F5847F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		Qt5Version = msvc2015_64

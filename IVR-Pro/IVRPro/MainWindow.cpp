@@ -11,6 +11,8 @@ MainWindow::MainWindow(QWidget *parent)
 	: eMainWindow(parent)
 	,m_oldSubWindow(nullptr)
 {
+	setTitleHeight(45);
+
 	m_mdiArea = new eMdiArea(this);
 	m_mdiArea->setLineWidth(1);
 	m_mdiArea->setFrameShape(QFrame::Panel);
@@ -22,8 +24,6 @@ MainWindow::MainWindow(QWidget *parent)
 	m_mdiArea->setVerticalScrollBarPolicy(Qt::ScrollBarAsNeeded);
 	m_mdiArea->setTabsClosable(true);
 	eService::GetInstance()->m_pContentManager = (eMdiArea*)m_mdiArea;
-
-	setTitleName(tr("text"));
 
 	setCentralWidget(m_mdiArea);
 	connect(m_mdiArea, SIGNAL(subWindowActivated(QMdiSubWindow*)), this, SLOT(slotSubWindowActivated(QMdiSubWindow*)));

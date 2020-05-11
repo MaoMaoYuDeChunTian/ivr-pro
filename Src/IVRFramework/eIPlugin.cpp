@@ -1,5 +1,5 @@
-﻿#include "IVRFramework/command/eIPlugin.h"
-#include "IVRFramework/command/ePluginManager.h"
+﻿#include "IVRFramework/eIPlugin.h"
+#include "IVRFramework/ePluginManager.h"
 
 using namespace IVRFramework;
 

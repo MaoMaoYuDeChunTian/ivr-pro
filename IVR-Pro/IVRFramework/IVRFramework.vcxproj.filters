@@ -218,13 +218,7 @@
     <ClCompile Include="..\..\Src\IVRFramework\command\eICommandSet.cpp">
       <Filter>IVRFramework\command</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Src\IVRFramework\command\eIPlugin.cpp">
-      <Filter>IVRFramework\command</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Src\IVRFramework\command\eIToolCommand.cpp">
-      <Filter>IVRFramework\command</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Src\IVRFramework\command\ePluginManager.cpp">
       <Filter>IVRFramework\command</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Src\IVRFramework\control\eButtonControl.cpp">
@@ -299,6 +293,15 @@
     <ClCompile Include="..\..\Src\IVRFramework\undo_redo\eGroupOperations.cpp">
       <Filter>IVRFramework\undo_redo</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\ePluginManager.cpp">
+      <Filter>IVRFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\eIPlugin.cpp">
+      <Filter>IVRFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Src\IVRFramework\frame_extension\eRightMenuManager.cpp">
+      <Filter>IVRFramework\frame_extension</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Src\IVRFramework\eAppInfo.h">
@@ -358,13 +361,7 @@
     <ClInclude Include="..\..\Src\IVRFramework\command\eICommandSet.h">
       <Filter>IVRFramework\command</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Src\IVRFramework\command\eIPlugin.h">
-      <Filter>IVRFramework\command</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Src\IVRFramework\command\eIToolCommand.h">
-      <Filter>IVRFramework\command</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Src\IVRFramework\command\ePluginManager.h">
       <Filter>IVRFramework\command</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Src\IVRFramework\control\eButtonControl.h">
@@ -429,6 +426,15 @@
     </ClInclude>
     <ClInclude Include="..\..\Src\IVRFramework\frame\eIContentView.h">
       <Filter>IVRFramework\frame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\ePluginManager.h">
+      <Filter>IVRFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\eIPlugin.h">
+      <Filter>IVRFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRFramework\frame_extension\eRightMenuManager.h">
+      <Filter>IVRFramework\frame_extension</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

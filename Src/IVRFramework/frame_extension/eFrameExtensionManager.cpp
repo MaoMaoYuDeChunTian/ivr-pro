@@ -1,6 +1,6 @@
 ﻿#include "IVRFramework/frame_extension/eFrameExtensionManager.h"
-#include "IVRFramework/command/eIPlugin.h"
-#include "IVRFramework/command/ePluginManager.h"
+#include "IVRFramework/eIPlugin.h"
+#include "IVRFramework/ePluginManager.h"
 #include "IVRFramework/frame_extension/eMenuBarExtension.h"
 #include "IVRFramework/frame_extension/eToolBarExtension.h"
 #include "IVRFramework/uiconfig/eUIConfig.h"

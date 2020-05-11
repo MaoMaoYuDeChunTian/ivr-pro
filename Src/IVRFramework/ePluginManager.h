@@ -2,7 +2,7 @@
 #include <map>
 #include <QList>
 #include <QString>
-#include "IVRFramework/command/eIPlugin.h"
+#include "IVRFramework/eIPlugin.h"
 #include "IVRFramework/ivrframework_global.h"
 
 class QLibrary;

@@ -80,9 +80,7 @@
     <ClCompile Include="..\..\Src\IVRFramework\command\eICommand.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\command\eICommandListener.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\command\eICommandSet.cpp" />
-    <ClCompile Include="..\..\Src\IVRFramework\command\eIPlugin.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\command\eIToolCommand.cpp" />
-    <ClCompile Include="..\..\Src\IVRFramework\command\ePluginManager.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\control\eButtonControl.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\control\eButtonGroupControl.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\control\eCheckBoxControl.cpp" />
@@ -98,7 +96,9 @@
     <ClCompile Include="..\..\Src\IVRFramework\control\eUserControl.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\control\eVSeparatorLine.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\eAppInfo.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\eIPlugin.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\eLanguageManager.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\ePluginManager.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\eService.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\eStyle.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\frameless\eFramelessHelper.cpp" />
@@ -110,6 +110,7 @@
     <ClCompile Include="..\..\Src\IVRFramework\frame_extension\eFrameExtensionManager.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\frame_extension\eIContentManager.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\frame_extension\eIFrameExtension.cpp" />
+    <ClCompile Include="..\..\Src\IVRFramework\frame_extension\eRightMenuManager.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\frame_extension\eToolBarExtension.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\uiconfig\eGroupItem.cpp" />
     <ClCompile Include="..\..\Src\IVRFramework\uiconfig\eIDisplayItem.cpp" />
@@ -192,8 +193,11 @@
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -DUNICODE -D_UNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DNDEBUG -DQT_CORE_LIB -DQT_XML_LIB -DIVRFRAMEWORK_LIB -D_WINDLL "-I.\GeneratedFiles" "-I." "-I$(QTDIR)\include" "-I.\GeneratedFiles\$(ConfigurationName)\." "-I$(QTDIR)\include\QtCore" "-I$(QTDIR)\include\QtXml" "-I$(QTDIR)\include\QtWidgets"</Command>
     </CustomBuild>
     <ClInclude Include="..\..\Src\IVRFramework\command\eCommandDelegate.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\eIPlugin.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\ePluginManager.h" />
     <ClInclude Include="..\..\Src\IVRFramework\frame\eIContentEventListener.h" />
     <ClInclude Include="..\..\Src\IVRFramework\frame\eIContentView.h" />
+    <ClInclude Include="..\..\Src\IVRFramework\frame_extension\eRightMenuManager.h" />
     <ClInclude Include="..\..\Src\IVRFramework\undo_redo\eControlsOperationStack.h" />
     <ClInclude Include="..\..\Src\IVRFramework\undo_redo\eGroupOperations.h" />
     <ClInclude Include="..\..\Src\IVRFramework\undo_redo\eIOperation.h" />
@@ -211,9 +215,7 @@
     <ClInclude Include="..\..\Src\IVRFramework\command\eICommand.h" />
     <ClInclude Include="..\..\Src\IVRFramework\command\eICommandListener.h" />
     <ClInclude Include="..\..\Src\IVRFramework\command\eICommandSet.h" />
-    <ClInclude Include="..\..\Src\IVRFramework\command\eIPlugin.h" />
     <ClInclude Include="..\..\Src\IVRFramework\command\eIToolCommand.h" />
-    <ClInclude Include="..\..\Src\IVRFramework\command\ePluginManager.h" />
     <ClInclude Include="..\..\Src\IVRFramework\control\eButtonControl.h" />
     <ClInclude Include="..\..\Src\IVRFramework\control\eButtonGroupControl.h" />
     <ClInclude Include="..\..\Src\IVRFramework\control\eCheckBoxControl.h" />

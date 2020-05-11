@@ -33,11 +33,12 @@ bool eLog::Init(QString outDir)
 	}
 
 	m_pStream = new QTextStream(&file);
-	m_pStream->setCodec("UTF-8");
+	m_pStream->setCodec("utf-8");
 
 	QDateTime beginDateTime = QDateTime::currentDateTime();
 	QString dataTime = beginDateTime.toString("yyyy/MM/dd/hh:mm:ss:zzz");
-	(*m_pStream) << "=====================u8程序启动:" << dataTime << endl;
+	QString info = "=====================程序启动:";
+	(*m_pStream) << info<< dataTime << endl;
 
 	return true;
 }

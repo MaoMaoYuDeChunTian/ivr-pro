@@ -11,6 +11,7 @@ IVRFramework::eMainWindowTitle::eMainWindowTitle(QString title, QWidget* parent 
 	m_titleBtn->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
 	m_titleBtn->setIcon(QIcon(":/IvrFramework/Resources/icon.png"));
 	m_titleBtn->setStyleSheet("border-style: flat");
+	m_titleBtn->setEnabled(false);
 
 	m_menuBar = new QMenuBar();
 	QFont _font = m_menuBar->font();

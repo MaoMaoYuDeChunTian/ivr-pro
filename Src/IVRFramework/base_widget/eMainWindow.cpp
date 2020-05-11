@@ -21,7 +21,7 @@ eMainWindow::eMainWindow(QWidget* parent /*= nullptr*/)
 	//设置可缩放
 	m_pHelper = new eFramelessHelper(this);
 	m_pHelper->activateOn(this);  //激活当前窗体
-	m_pHelper->setTitleHeight(30);  //设置窗体的标题栏高度
+	m_pHelper->setTitleHeight(40);  //设置窗体的标题栏高度
 	m_pHelper->setWidgetMovable(true);  //设置窗体可移动
 	m_pHelper->setWidgetResizable(true);  //设置窗体可缩放
 	m_pHelper->setRubberBandOnResize(false);  //设置橡皮筋效果-可缩放
@@ -44,6 +44,7 @@ void IVRFramework::eMainWindow::SetUpUi()
 	m_mainVbox->setContentsMargins(0, 0, 0, 0);
 
 	m_titleWidget = new eMainWindowTitle(tr("IDVR"));
+	m_titleWidget->setFixedHeight(40);
 	m_mainVbox->addWidget(m_titleWidget);
 
 	m_mainWindow = new QMainWindow(this);
@@ -60,12 +61,12 @@ void IVRFramework::eMainWindow::SetUpUi()
 void IVRFramework::eMainWindow::setTitleHeight(int height)
 {
 	m_pHelper->setTitleHeight(height);
-	m_titleWidget->setHeight(height);
+	m_titleWidget->setFixedHeight(height);
 }
 
 int IVRFramework::eMainWindow::getTitleHeight()
 {
-	return m_titleWidget->getHeight();
+	return m_titleWidget->height();
 }
 
 void IVRFramework::eMainWindow::setTitleName(const QString& name)

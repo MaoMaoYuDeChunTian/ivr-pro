@@ -4,7 +4,7 @@
 #include <QMenu>
 #include <QtXml/QDomDocument>
 #include <QtXml/QDomElement>
-#include "IVRFramework/command/ePluginManager.h"
+#include "IVRFramework/ePluginManager.h"
 #include "IVRFramework/command/eCommandManager.h"
 #include "IVRFramework/frame_extension/eFrameExtensionManager.h"
 #include "IVRFramework/ivrframework_global.h"

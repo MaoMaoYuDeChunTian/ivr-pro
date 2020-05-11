@@ -1,5 +1,5 @@
-﻿#include "IVRFramework/command/ePluginManager.h"
-#include "IVRFramework/command/eIPlugin.h"
+﻿#include "IVRFramework/ePluginManager.h"
+#include "IVRFramework/eIPlugin.h"
 #include "IVRFramework/command/eCommandManager.h"
 #include "IVRFramework/frame_extension/eFrameExtensionManager.h"
 #include "IVRUtility/eCommonUtil.h"

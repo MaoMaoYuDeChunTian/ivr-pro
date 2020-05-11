@@ -1,6 +1,6 @@
 ﻿#include <QComboBox>
 #include "IVRFramework/command/eCommandManager.h"
-#include "IVRFramework/command/ePluginManager.h"
+#include "IVRFramework/ePluginManager.h"
 #include "IVRFramework/frame_extension/eFrameExtensionManager.h"
 #include "IVRFramework/frame/eIContentManager.h"
 #include "IVRFramework/frame/eIContentView.h"

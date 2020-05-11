@@ -1,7 +1,7 @@
 ﻿#pragma once
 
 #include "IVRFramework/ivrframework_global.h"
-#include <QWidget>
+#include <QFrame>
 #include <QIcon>
 
 class QMenuBar;
@@ -11,7 +11,7 @@ class QHBoxLayout;
 
 namespace IVRFramework
 {
-	class IVRFRAMEWORK_EXPORT eBaseTitle : public QWidget
+	class IVRFRAMEWORK_EXPORT eBaseTitle : public QFrame
 	{
 		Q_OBJECT
 	public:
@@ -19,8 +19,6 @@ namespace IVRFramework
 		~eBaseTitle();
 
 	public:
-		void setHeight(int height);
-		int getHeight();
 		void setTitleName(const QString& name);
 		QString getTitleName();
 		void setIcon(const QIcon& icon);

@@ -109,7 +109,7 @@ void IVRFramework::eBaseTitle::qt_static_metacall(QObject *_o, QMetaObject::Call
 }
 
 const QMetaObject IVRFramework::eBaseTitle::staticMetaObject = {
-    { &QWidget::staticMetaObject, qt_meta_stringdata_IVRFramework__eBaseTitle.data,
+    { &QFrame::staticMetaObject, qt_meta_stringdata_IVRFramework__eBaseTitle.data,
       qt_meta_data_IVRFramework__eBaseTitle,  qt_static_metacall, nullptr, nullptr}
 };
 
@@ -124,12 +124,12 @@ void *IVRFramework::eBaseTitle::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_IVRFramework__eBaseTitle.stringdata0))
         return static_cast<void*>(this);
-    return QWidget::qt_metacast(_clname);
+    return QFrame::qt_metacast(_clname);
 }
 
 int IVRFramework::eBaseTitle::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QWidget::qt_metacall(_c, _id, _a);
+    _id = QFrame::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {

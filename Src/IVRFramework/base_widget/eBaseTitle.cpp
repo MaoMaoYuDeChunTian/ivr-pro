@@ -7,7 +7,7 @@
 
 
 IVRFramework::eBaseTitle::eBaseTitle(QString title, QWidget* parent /*= nullptr*/)
-	:QWidget(parent)
+	:QFrame(parent)
 {
 	setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
 
@@ -53,16 +53,6 @@ IVRFramework::eBaseTitle::eBaseTitle(QString title, QWidget* parent /*= nullptr*
 IVRFramework::eBaseTitle::~eBaseTitle()
 {
 
-}
-
-void IVRFramework::eBaseTitle::setHeight(int height)
-{
-	setHeight(height);
-}
-
-int IVRFramework::eBaseTitle::getHeight()
-{
-	return this->height();
 }
 
 void IVRFramework::eBaseTitle::setTitleName(const QString& name)

@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PluginConfig>
   <CommonPlugins>
-    <Plugin IsActive="1" Path="BinD/VS2015/LayerOperator.dll"/>
-    <Plugin IsActive="1" Path="BinD/VS2015/WorkSpaceOperator.dll"/>
-    <Plugin IsActive="1" Path="BinD/VS2015/MapOperator.dll"/>
-    <Plugin IsActive="1" Path="BinD/VS2015/SystemSetting.dll"/>
+    <Plugin IsActive="1" Path="BinD/VS2015/IVRTestPlugin.dll"/>
   </CommonPlugins>
 </PluginConfig>
