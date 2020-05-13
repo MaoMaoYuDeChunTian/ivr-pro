@@ -16,6 +16,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "plugins", "plugins", "{3E03B154-4656-4C9C-8FF5-6D1E1F5847F0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IVRTestPlugin", "IVRTestPlugin\IVRTestPlugin.vcxproj", "{DA0729EC-DD8E-46DA-A73D-331240A9031F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6399A652-FBB3-42A0-B884-4E803C27E10F} = {6399A652-FBB3-42A0-B884-4E803C27E10F}
+		{7584A1AD-880F-431B-80C1-3AFFD9512DEA} = {7584A1AD-880F-431B-80C1-3AFFD9512DEA}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

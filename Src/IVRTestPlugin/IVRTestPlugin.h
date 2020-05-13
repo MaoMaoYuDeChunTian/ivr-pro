@@ -1,4 +1,4 @@
-﻿#pragma once
+﻿ #pragma once
 
 #include "IVRFramework/eIPlugin.h"
 #include "IVRTestPlugin/ivrtestplugin_global.h"
@@ -11,7 +11,7 @@ namespace IVRTest
 {
 	class IVRTESTPLUGIN_EXPORT IVRTestPlugin : public eIPlugin
 	{
-		DECLARE_CLASS(IVRTest)
+		DECLARE_CLASS(IVRTestPlugin)
 	public:
 		IVRTestPlugin();
 		~IVRTestPlugin();

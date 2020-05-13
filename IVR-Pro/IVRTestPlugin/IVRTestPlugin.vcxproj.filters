@@ -29,12 +29,18 @@
     <ClCompile Include="..\..\Src\IVRTestPlugin\IVRTestPlugin.cpp">
       <Filter>IVRTestPlugin</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Src\IVRTestPlugin\testCommand.cpp">
+      <Filter>IVRTestPlugin</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Src\IVRTestPlugin\IVRTestPlugin.h">
       <Filter>IVRTestPlugin</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Src\IVRTestPlugin\ivrtestplugin_global.h">
+      <Filter>IVRTestPlugin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Src\IVRTestPlugin\testCommand.h">
       <Filter>IVRTestPlugin</Filter>
     </ClInclude>
   </ItemGroup>

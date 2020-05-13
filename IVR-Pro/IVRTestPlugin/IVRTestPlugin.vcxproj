@@ -70,10 +70,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Src\IVRTestPlugin\IVRTestPlugin.cpp" />
+    <ClCompile Include="..\..\Src\IVRTestPlugin\testCommand.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Src\IVRTestPlugin\IVRTestPlugin.h" />
     <ClInclude Include="..\..\Src\IVRTestPlugin\ivrtestplugin_global.h" />
+    <ClInclude Include="..\..\Src\IVRTestPlugin\testCommand.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ivrtestplugin_zh.ts" />

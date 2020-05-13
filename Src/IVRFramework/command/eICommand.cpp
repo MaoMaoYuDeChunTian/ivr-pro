@@ -77,20 +77,20 @@ void IVRFramework::eICommand::AfterExecNotify(QObject* sender, QString param)
  	m_CommandListenerSet.clear();
 }
 
-// void IVRFramework::ExecuteCommand(std::string moduleName, std::string commandName, std::string jsonParam)
-// {
-// 	eICommand* pCommand = eCommandManager::GetInstance()->GetCommand(moduleName.c_str(),commandName.c_str());
-// 
-// 	if (pCommand != NULL)
-// 	{
-// 		QJsonObject json;
-// 		if (jsonParam != "")
-// 		{
-// 			QString qstrParams = eStringUtil::CStr2QStr(jsonParam.c_str());
-// 			QByteArray paramData = qstrParams.toLatin1();
-// 			QJsonDocument jsonDoc(QJsonDocument::fromJson(paramData));
-// 			json = jsonDoc.object();
-// 		}
-// 		pCommand->Execute(json);
-// 	}
-// }
+ //void IVRFramework::ExecuteCommand(std::string moduleName, std::string commandName, std::string jsonParam)
+ //{
+ //	eICommand* pCommand = eCommandManager::GetInstance()->GetCommand(moduleName.c_str(),commandName.c_str());
+ //
+ //	if (pCommand != NULL)
+ //	{
+ //		QJsonObject json;
+ //		if (jsonParam != "")
+ //		{
+ //			QString qstrParams = eStringUtil::CStr2QStr(jsonParam.c_str());
+ //			QByteArray paramData = qstrParams.toLatin1();
+ //			QJsonDocument jsonDoc(QJsonDocument::fromJson(paramData));
+ //			json = jsonDoc.object();
+ //		}
+ //		pCommand->Execute(json);
+ //	}
+ //}

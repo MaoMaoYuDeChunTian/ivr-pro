@@ -2,46 +2,7 @@
 <UIConfig>
   <Page enable="1" caption="视图">
     <Group enable="1" caption="视图">
-      <Item enable="1" type="button" command="View_View" library="View_View" caption="all" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_View" library="View_View" caption="Section" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_View" library="View_View" caption="地图" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_View" library="View_View" caption="转换" icon="AdaptiveCoherenceEstimator" tip="" />
-    </Group>
-    <Group enable="1" caption="链接">
-      <Item enable="1" type="splitbutton" command="View_Link" library="View_Link" caption="链接视图" icon="AdaptiveCoherenceEstimator" >
-        <Item enable="1" type="button" command="View_Link" library="View_Link" caption="中心" icon="AdaptiveCoherenceEstimator" tip=""/>
-        <Item enable="1" type="button" command="View_Link" library="View_Link" caption="中心和比例" icon="AdaptiveCoherenceEstimator" tip=""/>
-      </Item>
-    </Group>
-    <Group enable="1" caption="窗口">
-      <Item enable="1" type="button" command="View_Window" library="View_Window" caption="目录窗格" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_Window" library="View_Window" caption="目录视图" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_Window" library="View_Window" caption="内容" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_Window" library="View_Window" caption="Python" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_Window" library="View_Window" caption="任务" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_Window" library="View_Window" caption="Reviewer规则" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="splitbutton" command="View_Workflow" library="View_Workflow" caption="Workflow Manager" icon="AdaptiveCoherenceEstimator" >
-        <Item enable="1" type="button" command="View_Workflow" library="View_Workflow" caption="工作流窗格" icon="AdaptiveCoherenceEstimator" tip=""/>
-        <Item enable="1" type="button" command="View_Workflow" library="View_Workflow" caption="工作流视图" icon="AdaptiveCoherenceEstimator" tip=""/>
-      </Item>
-    </Group>
-    <Group enable="1" caption="缩略图">
-      <Item enable="1" type="button" command="View_Breviary" library="View_Breviary" caption="创建" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_Breviary" library="View_Breviary" caption="导入" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
-    </Group>
-    <Group enable="1" caption="动画">
-      <Item enable="1" type="button" command="View_Action" library="View_Action" caption="添加" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
-      <Item enable="1" type="button" command="View_Action" library="View_Action" caption="移除" size="small" icon="AdaptiveCoherenceEstimator" tip="" />
-    </Group>
-    <Group enable="1" caption="场景">
-      <Item enable="1" type="button" command="View_Scene" library="View_Action" caption="深度优先级" icon="AdaptiveCoherenceEstimator" tip=""/>
-      <Item enable="1" type="splitbutton" command="View_Scene" library="View_Action" caption="绘制模式" icon="AdaptiveCoherenceEstimator" tip="" >
-        <Item enable="1" type="button" command="View_Scene" library="View_Scene" caption="透视" icon="AdaptiveCoherenceEstimator" tip=""/>
-        <Item enable="1" type="button" command="View_Scene" library="View_Scene" caption="等容线" icon="AdaptiveCoherenceEstimator" tip=""/>
-      </Item>
-    </Group>
-    <Group enable="1" caption="导航">
-      <Item enable="1" type="button" command="View_Navigation" library="View_Navigation" caption="导航器" icon="AdaptiveCoherenceEstimator" tip=""/>
+      <Item enable="1" type="button" command="TestCommand" library="IVRTestPlugin" caption="弹窗口" size="small" icon="test" tip="" />
     </Group>
   </Page>
 </UIConfig>

@@ -77,22 +77,19 @@ bool ePluginManager::LoadPlugins(QString workPath, QString pluginConfigFile)
 		QString dllFileName = pluginEle.attribute("Path");
 		QString dllFilePath = workPath + dllFileName;
 
-		//QString uiConfigFileName = pluginEle.attribute("UIConfig");
-		//QString uiConfigFilePath = workPath + "Config/UIConfig/" + uiConfigFileName;
-
 		int nReturnCode = LoadPlugin(dllFilePath);
 		if (nReturnCode != 0)
 		{
 			QFile pFile(dllFilePath);
-			//messgeInfo += pFile.fileName() + eStringUtil::CStr2QStr("锟斤拷锟斤拷锟斤拷锟轿?") + QString::number(nReturnCode) + "\n";
+			messgeInfo += pFile.fileName() + "错误代码为：" + QString::number(nReturnCode) + "\n";
 			++nFailCount;
 		}
 	}
 	if (nFailCount > 0)
 	{
 		QMessageBox msgBox;
-		//msgBox.setWindowTitle(eStringUtil::CStr2QStr("锟斤拷锟斤拷"));
-		//msgBox.setText(messgeInfo + eStringUtil::CStr2QStr("锟斤拷锟斤拷失锟斤拷"));
+		msgBox.setWindowTitle("错误");
+		msgBox.setText(messgeInfo + "加载失败");
 		msgBox.exec();
 	}
 

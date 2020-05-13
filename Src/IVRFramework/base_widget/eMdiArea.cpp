@@ -12,17 +12,11 @@ IVRFramework::eMdiArea::eMdiArea(QWidget* parent)
 	setTabsClosable(false);
 	setAcceptDrops(true);
 	setMouseTracking(true);
-	setTabsClosable(false);
 	//ceshi
 	QTextEdit *window1 = new QTextEdit;
 	window1->setHtml("C");
 	QMdiSubWindow* _sub1 = addSubWindow(window1);
 	_sub1->setWindowTitle(tr("win1"));
-
-	QTextEdit *window2 = new QTextEdit;
-	window2->setHtml("C++");
-	QMdiSubWindow* _sub2 = addSubWindow(window2);
-	_sub2->setWindowTitle(tr("win2"));
 }
 
 IVRFramework::eMdiArea::~eMdiArea()
