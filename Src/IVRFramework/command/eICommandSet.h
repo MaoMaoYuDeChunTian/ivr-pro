@@ -14,25 +14,14 @@ namespace IVRFramework {
 		DECLARE_CLASS(eICommandSet)
 
 	public:
-
 		eICommandSet(void);
-
-
 		virtual ~eICommandSet(void);
-
 	public:
-
 		virtual void RegisterCommands() = 0;
-
-
 		bool AddCommand(eICommand* pCommand);
-
-
 		eICommand* GetCommand(QString strCommandName);
-
 	private:
 		QMap<QString, eICommand*> m_CommandSet;
-
 	};
 
 }//namespace IVRFramework

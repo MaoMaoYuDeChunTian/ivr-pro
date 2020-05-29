@@ -11,18 +11,11 @@ class IVRFRAMEWORK_EXPORT eICommandListener
 	DECLARE_CLASS(eICommandListener)
 
 public:
-
 	eICommandListener(void);
-
-
 	virtual ~eICommandListener(void);
-
 public:
-
 	virtual void BeforeExecute(QObject* sender, QString param);
-
 	virtual void AfterExecute(QObject* sender, QString param);
-
 };
 
 }//namespace IVRFramework

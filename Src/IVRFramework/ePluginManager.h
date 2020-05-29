@@ -16,37 +16,22 @@ public:
 	static ePluginManager* GetInstance();
 
 private:
-
 	ePluginManager(void);
 
 public:
-
 	~ePluginManager(void);
 
 public:
 	typedef QMap<int, QList<eIPlugin*> > ListenerGroup; 
-
-public:
-
 	bool LoadPlugins(QString workPath, QString pluginConfigFile);
-
-
 	int LoadPlugin(const QString & dllFilePath);
-
-
 	bool UnLoadPlugins();
-
 	bool UnLoadPlugin(eIPlugin* pPlugin);
-
     QMap<QString, eIPlugin*>  GetAllPlugins();
 
 public:
-	
 	void AddListener(int nEventType, eIPlugin* pPlugin);
-
-
 	void RemoveListener(int nEventType, eIPlugin* pPlugin);
-
 	void DispatchEvent(eIPlugin* pPlugin, int nEventType, void* pEventData);
 
 public:
@@ -62,8 +47,6 @@ private:
 	bool LoadPlugin(QLibrary *pLib);
 	bool FileExist(const QString& dllFilePath) const;
 	bool IsLoaded(const QString& dllFilePath) const;
-
-
 	bool LoadFrameExtensions();
 
 private:

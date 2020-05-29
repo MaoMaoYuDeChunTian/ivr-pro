@@ -10,15 +10,12 @@ class IVRFRAMEWORK_EXPORT eButtonGroupControl : public eContainerControl
 public:
 	eButtonGroupControl();
 	~eButtonGroupControl();
-
 public:
 	bool GetShowInToolBar(void);
 	void SetShowInToolBar(bool bShowInToolBar);
-
 public:
 	virtual bool FromXmlElement(const QDomElement& xmlElement);
 	virtual QDomElement ToXmlElement(QDomDocument xmlDoc);
-
 private:
 	bool m_bShowInToolBar;
 };

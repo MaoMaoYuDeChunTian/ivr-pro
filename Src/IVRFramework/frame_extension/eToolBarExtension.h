@@ -19,5 +19,4 @@ public:
 public:
 	static eToolBar* s_pToolBar;
 };
-
 }

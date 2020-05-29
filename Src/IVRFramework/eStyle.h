@@ -1,11 +1,11 @@
 ﻿/* Copyright (C) 2019, GDI. All rights reserved.
 *
-* File    : eStyle.h 
+* File    : eStyle.h
 * Version : 2.0
 * Author  : ZhaoY
 *
 * 界面风格类
-*/ 
+*/
 
 #pragma once
 

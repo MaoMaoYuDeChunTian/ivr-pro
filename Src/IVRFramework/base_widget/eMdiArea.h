@@ -35,5 +35,4 @@ namespace IVRFramework {
 		virtual void AddContentView(eIContentView* pContentView);
 		virtual QVector<eIContentView*> ContentViewList();
 	};
-
 }

@@ -1,11 +1,11 @@
 ﻿/* Copyright (C) 2019, GDI. All rights reserved.
 *
-* File    : eService.h 
+* File    : eService.h
 * Version : 2.0
 * Author  : ZhaoY
 *
 * 程序主要窗口服务类
-*/ 
+*/
 
 #pragma once
 #include "IVRFramework/ivrframework_global.h"

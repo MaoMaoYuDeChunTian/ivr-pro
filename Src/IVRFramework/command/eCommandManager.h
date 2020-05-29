@@ -27,20 +27,12 @@ public:
 	~eCommandManager(void);
 
 public:
-
 	bool AddCommandSet(eICommandSet* pCommandSet);
-
-
 	eICommandSet* GetCommandSet(QString strCommandSetName);
-
-
 	bool RemoveCommandSet(QString strCommandSetName);
-
 	eICommand* GetCommand(const QString& moduleName, const QString& cmdName);
-
 public:
 	bool ConnectCmd(const QString& moduleName, const QString& cmdName, const QString& cmdType, QObject* pSender, eCommandDelegate::QControlType controlType, QString strParam = "");
-
 	eCommandDelegate* GetCommandDelegate(QObject* pSender);
 
 private slots:
@@ -53,5 +45,4 @@ private:
 	QVector<eCommandDelegate*> m_lstCommandDelegate;
 	QTimer m_cmdTimer;
 };
-
 }//namespace IVRFramework

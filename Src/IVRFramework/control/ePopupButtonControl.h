@@ -13,8 +13,5 @@ public:
 public:
 	virtual bool FromXmlElement(const QDomElement& xmlElement);
 	virtual QDomElement ToXmlElement(QDomDocument xmlDoc);
-
-private:
-
 };
 }

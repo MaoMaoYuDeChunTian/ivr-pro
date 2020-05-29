@@ -15,9 +15,6 @@ public:
 	virtual QDomElement ToXmlElement(QDomDocument xmlDoc);
 	virtual QObject* ToToolBarCtrl(QToolBar* pToolBar);
 	virtual QObject* ToMenuBarCtrl(QMenu* pMenu, QToolBar* pToolBar);
-
-private:
-
 };
 
 }
